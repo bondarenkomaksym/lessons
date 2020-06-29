@@ -1,8 +1,4 @@
-h1,
-article,
-h2,
-ul,
-p {
+body {
   background-color: green;
 }
 li {
