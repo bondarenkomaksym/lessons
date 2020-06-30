@@ -1,26 +1,21 @@
+li {
+  margin-bottom: 16px;
+}
 [target="_blank"] {
+  border: 2px solid black;
+}
+a[href^="broken"] {
+  border: 2px solid red;
+}
+a[href$=".com"] {
+  margin-left: 50px;
+}
+[href*="en"] {
+  font-size: 10px;
+}
+[href*="www"] {
   color: green;
 }
-ol,
-ul {
-  background-color: yellow;
-}
-header,
-footer {
-  border: 3px dashed blue;
-}
-h1,
-h2,
-h3,
-h4 {
-  margin-left: 20px;
-}
-article.new {
+[title*="popular"] {
   font-size: 24px;
-}
-li.new {
-  background-color: red;
-}
-.new.posted-today {
-  background-color: pink;
 }
