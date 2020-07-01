@@ -1,40 +1,28 @@
-body {
-  background: #bdc3c7;
+.anchor {
+  background-color: black;
+  color: white;
 }
-h1 {
-  color: #9b59b6;
+.anchor:visited {
+  background-color: orange;
+  color: green;
 }
-li {
-  color: blue;
-}
-h2 {
-  color: orange;
-}
-p {
-  background-color: yellow;
-}
-input {
+.anchor:active,
+.some-button:active {
   border: 3px solid red;
 }
-.hello {
-  background-color: white;
+.anchor:hover {
+  font-size: 24px;
 }
-#special {
-  border: 2px solid blue;
+.some-button:disabled {
+  border: 2px solid gray;
 }
-div > p {
-  font-size: 25px;
-}
-[type="text"] {
+.some-button:hover:enabled {
   background-color: gray;
-}
-div:nth-of-type(3) > p {
-  background-color: yellow;
-}
-div:nth-of-type(3) > p:nth-of-type(2) {
-  border: 5px solid white;
-}
-div:nth-of-type(3) > p > em {
   color: white;
-  font-size: 20px;
+}
+input:focus {
+  background-color: orange;
+}
+[type="checkbox"]:checked {
+  margin-left: 20px;
 }
