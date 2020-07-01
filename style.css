@@ -14,7 +14,7 @@
   font-size: 24px;
 }
 .some-button:disabled {
-  border: 2px solid gray;
+  border: 2px dashed gray;
 }
 .some-button:hover:enabled {
   background-color: gray;
