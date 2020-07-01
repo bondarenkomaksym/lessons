@@ -1,17 +1,16 @@
-li {
-  margin-bottom: 16px;
+.theory:first-letter {
+  font-size: 36px;
+  margin-left: 16px;
+  color: orange;
 }
-li:first-child > span {
+.theory::first-line {
+  font-size: 24px;
   background-color: red;
   color: white;
 }
-li:last-child > span {
-  background-color: rgb(0, 0, 0);
-  color: white;
+a:before {
+  content: ">";
 }
-li:nth-of-type(even) > span {
-  margin-left: 16px;
-}
-.paragraphs > p:nth-of-type(odd) {
-  background-color: gray;
+a:after {
+  content: "<";
 }
