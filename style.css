@@ -2,12 +2,7 @@
   box-sizing: border-box;
 }
 .main {
-  display: grid;
-  grid-template-columns: repeat(5, min-content);
-  grid-template-rows: repeat(1, min-content);
-  /* width: 50%; */
-  margin: 0;
-  padding: 0;
+  min-width: 50%;
 }
 .block_red,
 .block_green,
@@ -15,6 +10,7 @@
 .block_yellow,
 .block_black {
   width: 200px;
+  float: left;
   height: 200px;
 }
 .block_red {
