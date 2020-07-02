@@ -1,11 +1,11 @@
 div {
-  width: 100%;
   padding: 50px;
   background-color: aqua;
   border: 2px solid black;
   margin: 50px;
 }
 .one {
+  width: 100%;
   background-color: blue;
 }
 .two {
