@@ -2,14 +2,14 @@
   box-sizing: border-box;
 }
 .main {
-  min-width: 50%;
+  width: 100%;
 }
 .block_red,
 .block_green,
 .block_blue,
 .block_yellow,
 .block_black {
-  width: 200px;
+  width: 20%;
   float: left;
   height: 200px;
 }
