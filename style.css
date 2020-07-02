@@ -1,21 +1,23 @@
 div {
   margin-left: 50px;
-  margin-bottom: 50px;
 }
 .figure1 {
   margin-top: 50px;
+  margin-bottom: 50px;
   background-color: forestgreen;
   width: 100px;
   height: 50px;
   border-radius: 16px;
 }
 .figure2 {
+  margin-bottom: 50px;
   background-color: darkmagenta;
   width: 100px;
   height: 50px;
   border-radius: 50px/25px;
 }
 .figure3 {
+  margin-bottom: 50px;
   background-color: aquamarine;
   width: 100px;
   height: 100px;
