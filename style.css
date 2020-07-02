@@ -2,9 +2,9 @@ div {
   padding: 50px;
   background-color: aqua;
   border: 2px solid black;
-  margin: 50px;
 }
 .one {
+  margin: 50px;
   width: 100%;
   background-color: blue;
 }
