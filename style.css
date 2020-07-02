@@ -24,6 +24,7 @@ div {
   border-radius: 50%;
 }
 .figure4 {
+  margin-bottom: 50px;
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
