@@ -1,11 +1,12 @@
 div {
+  box-sizing: border-box;
   padding: 50px;
   background-color: aqua;
   border: 2px solid black;
 }
 .one {
   margin: 50px;
-  width: 100%;
+
   background-color: blue;
 }
 .two {
@@ -15,5 +16,6 @@ div {
   background-color: green;
 }
 .four {
+  width: 100%;
   background-color: pink;
 }
