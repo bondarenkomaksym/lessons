@@ -1,16 +1,17 @@
-.theory:first-letter {
-  font-size: 36px;
-  margin-left: 16px;
-  color: orange;
+.firstdiv {
+  box-sizing: content-box;
+  width: 512px;
+  height: 128px;
+  margin: 16px;
+  padding: 16px;
+  border: 8px solid black;
 }
-.theory::first-line {
-  font-size: 24px;
-  /* background-color: red;
-  color: white; */
-}
-a:before {
-  content: ">";
-}
-a:after {
-  content: "<";
+.seconddiv {
+  box-sizing: border-box;
+  width: 512px;
+  height: 128px;
+  margin: 16px;
+  padding: 16px;
+  border: 8px solid black;
+  background-color: azure;
 }
