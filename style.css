@@ -8,15 +8,19 @@ main {
 header {
   background-color: darkturquoise;
   height: 40px;
+  position: fixed;
+  width: 100%;
+  line-height: 10px;
+  z-index: 1;
 }
 .nav-list li {
   display: inline;
   margin-left: 16px;
   color: white;
-  line-height: 40px;
 }
 
 .head {
+  z-index: 0;
   position: absolute;
   left: 50%;
   top: 50%;
