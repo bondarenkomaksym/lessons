@@ -22,6 +22,11 @@ ul {
   margin: 0;
   padding: 0;
   height: 40px;
+  line-height: 40px;
+}
+li {
+  height: 40px;
+  line-height: 40px;
 }
 .head {
   z-index: 0;
