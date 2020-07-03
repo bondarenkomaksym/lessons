@@ -11,9 +11,9 @@ header {
 }
 .nav-list li {
   display: inline;
-  line-height: 40px;
   margin-left: 16px;
   color: white;
+  line-height: 40px;
 }
 
 .head {
@@ -49,11 +49,11 @@ header {
 }
 .eye_left {
   position: relative;
-  top: -65px;
+  top: -70px;
   left: 40px;
 }
 .eye_right {
   position: relative;
-  top: -35px;
-  left: 135px;
+  top: -40px;
+  left: 130px;
 }
