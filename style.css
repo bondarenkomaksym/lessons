@@ -21,12 +21,14 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   height: 40px;
+  font-size: 0;
 }
 ul li {
   padding-top: 10px;
   padding-bottom: 12px;
   line-height: 2.5;
   height: 40px;
+  font-size: 16px;
 }
 .head {
   z-index: 0;
