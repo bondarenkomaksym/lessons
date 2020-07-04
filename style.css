@@ -22,8 +22,11 @@ ul {
   margin-bottom: 0;
   height: 40px;
 }
-li.nav-item {
+ul li {
+  padding-top: 12px;
+  padding-bottom: 12px;
   line-height: 2.5;
+  height: 40px;
 }
 .head {
   z-index: 0;
