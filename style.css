@@ -24,7 +24,7 @@ li {
   align-items: center;
 }
 .nav_item {
-  margin-right: 10px;
+  margin-right: 16px;
 }
 .maincontent {
   flex-grow: 1;
@@ -51,6 +51,7 @@ li {
 .articles {
   margin: 0;
   padding: 0;
+  margin-top: 16px;
   margin-left: 16px;
   line-height: 40px;
 }
