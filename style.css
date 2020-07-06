@@ -11,7 +11,9 @@ li {
 }
 .navigation {
   margin: 0;
+  margin-left: 16px;
   display: flex;
+  padding: 0;
 }
 .head {
   height: 40px;
@@ -43,6 +45,9 @@ li {
   background-color: gray;
 }
 .articles {
+  margin: 0;
+  padding: 0;
+  margin-left: 16px;
   line-height: 40px;
 }
 .foot {
