@@ -3,16 +3,30 @@
 }
 body {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
 header {
-  display: flex;
-  /* margin: auto; */
+  display: inline-block;
+  clear: both;
+  width: 100%;
+}
+h1 {
+  justify-content: center;
   align-items: center;
+  text-align: center;
+  background-color: darkcyan;
+}
+.articles-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 100%; */
 }
 .article {
+  flex-grow: 1;
   background-color: bisque;
   min-width: 300px;
+  width: 20%;
   margin: 8px;
   padding: 16px;
 }
