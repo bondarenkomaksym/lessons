@@ -1,9 +1,56 @@
-.container {
-  display: flex;
-  flex-wrap: wrap;
+* {
+  box-sizing: border-box;
 }
-.block {
-  height: 100px;
-  min-width: 100px;
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+li {
+  list-style: none;
+}
+.navigation {
+  margin: 0;
+  display: flex;
+}
+.head {
+  height: 40px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+}
+.nav_item {
+  margin-right: 10px;
+}
+.maincontent {
   flex-grow: 1;
+  display: flex;
+}
+.title {
+  display: flex;
+
+  justify-content: center;
+}
+.dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  background-color: pink;
+}
+.news {
+  width: 200px;
+  background-color: gray;
+}
+.articles {
+  line-height: 40px;
+}
+.foot {
+  display: flex;
+  height: 40px;
+  background-color: green;
+}
+
+.footertext {
+  margin: auto;
 }
