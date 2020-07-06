@@ -5,23 +5,14 @@ body {
   display: flex;
   width: 100%;
 }
-div {
-  display: inline-block;
-  height: 300px;
-  width: 20%;
+header {
+  display: flex;
+  /* margin: auto; */
+  align-items: center;
 }
-.block_red {
-  background-color: red;
-}
-.block_green {
-  background-color: green;
-}
-.block_blue {
-  background-color: blue;
-}
-.block_yellow {
-  background-color: yellow;
-}
-.block_black {
-  background-color: black;
+.article {
+  background-color: bisque;
+  min-width: 300px;
+  margin: 8px;
+  padding: 16px;
 }
