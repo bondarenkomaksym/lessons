@@ -1,6 +1,6 @@
 let n = 187;
-let sum = 1;
-while (n > 0) {
+let sum = 0;
+while (n > 1) {
   sum += n;
   n -= 1;
 }
