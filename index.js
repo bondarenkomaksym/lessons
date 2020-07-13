@@ -1,53 +1,30 @@
-/* оператор || (OR) */
-false || true;
-false || true || false;
-false || false || false;
-console.log("false || true: ", false || true);
-console.log("false || true || false: ", false || true || false);
-console.log("false || false || false: ", false || false || false);
+if (true) console.log("I'm in");
 
-/* оператор && (AND) */
-false && true;
-false && true && false;
-true && true && true;
-console.log("false && true: ", false && true);
-console.log("false && true && false: ", false && true && false);
-console.log("true && true && true: ", true && true && true);
+if (false) {
+  console.log("I'm not in");
+}
 
-/* Логические операторы могут применятся к любым типам данных */
+if ("text") {
+  console.log("Yes");
+}
 
-/* || находит первое истинное значение */
-"text" || false;
-true || "text";
-undefined || null || 0 || "" || null;
-console.log("'text' || false: ", "text" || false);
-console.log("true || 'text': ", true || "text");
-console.log(
-  "undefined || null || 0 || '' || null: ",
-  undefined || null || 0 || "" || null
-);
+if (null) {
+  console.log("Yes");
+} else {
+  console.log("Else");
+}
+let age = 30;
+if (age < 16) {
+  console.log("Too young");
+} else if (age >= 16 && age < 18) {
+  console.log("Almost ready");
+} else if (age >= 18 && age < 65) {
+  console.log("Ready");
+} else {
+  console.log("Else");
+}
 
-const customAmount = null; // не выводим
-const defaultAmount = 17; // не выводим
-const amount = customAmount || defaultAmount; // выводим значкние переменной amount в формате console.log('amount: ', amount);
-console.log("amount: ", amount);
-/* && находит первое ложное значение */
-"text" && false;
-true && "text";
-undefined && null && 0 && "" && null;
-console.log("'text' && false: ", "text" && false);
-console.log("true && 'text': ", true && "text");
-console.log(
-  "undefined && null && 0 && '' && null: ",
-  undefined && null && 0 && "" && null
-);
-
-/* оператор отрицания (OR) */
-!true;
-!false;
-!"text";
-!!"text";
-console.log("!true: ", !true);
-console.log("!false: ", !false);
-console.log("!'text': ", !"text");
-console.log("!!'text': ", !!"text");
+// Тернаный оператор ? : ( const result = условие ? значение1 : значение2; )
+let amount = 2;
+const result = amount > 17 ? "full" : "empty";
+console.log(result);
