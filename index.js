@@ -15,5 +15,4 @@ for (let i = 7; i <= j; i++) {
   } else {
     break;
   }
-  result;
 }
