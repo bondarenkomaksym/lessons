@@ -2,7 +2,7 @@ let m = 7;
 let n = 12;
 let i = m;
 let j = n;
-let result = 0;
+let result = "";
 for (let i = 7; i <= j; i++) {
   if ((i % 2 === 0, i % 4 === 1)) {
     result += i;
@@ -15,4 +15,5 @@ for (let i = 7; i <= j; i++) {
   } else {
     break;
   }
+  result;
 }
