@@ -1,22 +1,6 @@
-// let m = 2;
-// const n = 8;
-// let result = 1;
-// do {
-//   if (m % 2 === 1) {
-//     result *= m;
-//   }
-//   m++;
-// } while (m <= n);
-// console.log("Result: " + result);
-
-let m = 2;
-let i = m;
-const n = 8;
-let result = 1;
-do {
-  if (i % 2 === 1) {
-    result *= i;
+for (let i = 1; i <= 10; i++) {
+  for (let j = 1; j <= 10; j++) {
+    console.log(i + " x " + j + " = " + i * j);
   }
-  i++;
-} while (i <= n);
-console.log("Result: " + result);
+  console.log("=> " + i + " <=");
+}
