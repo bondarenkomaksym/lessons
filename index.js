@@ -1,6 +1,7 @@
-for (let i = 1; i <= 10; i++) {
-  for (let j = 1; j <= 10; j++) {
-    console.log(i + " x " + j + " = " + i * j);
-  }
-  console.log("=> " + i + " <=");
+let n = 3;
+let i = n;
+let sum = "";
+for (let i = 1; i <= n; i++) {
+  sum += i;
 }
+console.log(sum);
