@@ -7,13 +7,9 @@ while (a <= b) {
   sum += a;
   a++;
 }
-console.log(sum);
 let result;
 let big = (sum / 1234 >> 0);
-let small = (sum % 1234 === 1);
+let small = (sum % 1234);
 result = (big > small) ? console.log("true") : console.log("false");
-
-
-
 
 
