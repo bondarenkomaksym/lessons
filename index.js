@@ -5,6 +5,6 @@ while (a <= b) {
   sum += a;
   a++;
 }
-let small = (sum / 1234);
-let big = (sum % 1234);
+let small = sum / 1234;
+let big = sum % 1234;
 (small > big) ? console.log("true") : console.log("false");
