@@ -10,6 +10,6 @@ while (a <= b) {
 let result;
 let big = (sum / 1234 >> 0);
 let small = (sum % 1234);
-result = (big > small) ? console.log("true") : console.log("false");
+result = (big < small) ? console.log("true") : console.log("false");
 
 
