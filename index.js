@@ -1,3 +1,5 @@
+
+
 let sum = 0;
 let a = 0;
 let b = 1000;
@@ -5,8 +7,13 @@ while (a <= b) {
   sum += a;
   a++;
 }
-((sum % 1234 === 0) > (sum % 1234 === 1))
-  ? console.log("true")
-  : console.log("false");
+console.log(sum);
+let result;
+let big = (sum / 1234 >> 0);
+let small = (sum % 1234 === 1);
+result = (big < small) ? console.log("true") : console.log("false");
+
+
+
 
 
