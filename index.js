@@ -7,4 +7,4 @@ while (a <= b) {
 }
 let small = parseInt(sum / 1234);
 let big = (sum % 1234);
-(small < big) ? console.log("true") : console.log("false");
+(small < big) ? console.log("false") : console.log("true");
