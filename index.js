@@ -7,4 +7,5 @@ while (a <= b) {
 }
 let small = sum / 1234;
 let big = sum % 1234;
-(small > big) ? console.log("true") : console.log("false");
+console.log(small > big);
+
