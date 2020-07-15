@@ -8,8 +8,8 @@ while (a <= b) {
   a++;
 }
 let result;
-let big = (sum / 1234 >> 0);
-let small = (sum % 1234);
-result = (big < small) ? console.log("true") : console.log("false");
+let small = (sum / 1234 >> 0);
+let big = (sum % 1234);
+result = (small < big) ? console.log("true") : console.log("false");
 
 
