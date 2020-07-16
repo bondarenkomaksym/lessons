@@ -1,4 +1,4 @@
-getPrimes(11);
+
 function getPrimes(n) {
   for (let i = 2; i <= n; i++) {
     if (!numPrime(i)) continue;
