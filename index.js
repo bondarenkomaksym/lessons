@@ -1,10 +1,16 @@
-function getSum(start, end) {
-  let sum = 0;
-  for (let i = start; i <= end; i++) {
-    if (i % 2 === 1) continue;
-    sum += i;
-  }
-  return sum;
-}
-// console.log(getSum(2, 5));
+function getPrimes(n) {
 
+  for (let i = 1; i < n; i++) {
+    if (!isPrime(i)) continue;
+    console.log(i);
+  }
+}
+
+function isPrime(n) {
+  for (let i = 2; i < n; i++) {
+    if (n % i == 0) return false;
+  }
+  return true;
+}
+
+getPrimes(12);
