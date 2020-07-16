@@ -1,5 +1,5 @@
 function getPrimes(n) {
-  for (let i = 1; i <= n; i++) {
+  for (let i = 2; i <= n; i++) {
     if (!numPrime(i)) continue;
     console.log(i);
   }
