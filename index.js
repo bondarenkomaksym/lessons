@@ -1,8 +1,4 @@
-function getEvenOdd(num) {
-  if (num % 2 === 0) {
-    return 'even';
-  } else {
-    return 'odd';
-  }
+const square = (num) => {
+  return num * num;
 }
-getEvenOdd(17);
+const result = square(3);
