@@ -1,4 +1,5 @@
-function sum(a, b) {
-  return a + b;
+function sayHi(name) {
+  const greeting = 'Hi, ' + name;
+  console.log(greeting);
 }
-sum(2, 3);
+sayHi("Tom")
