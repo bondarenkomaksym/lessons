@@ -1,5 +1,8 @@
-function sayHi(name) {
-  const greeting = 'Hi, ' + name;
-  console.log(greeting);
+function getEvenOdd(num) {
+  if (num % 2 === 0) {
+    return 'even';
+  } else {
+    return 'odd';
+  }
 }
-sayHi("Tom")
+getEvenOdd(17);
