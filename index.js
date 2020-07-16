@@ -1,3 +1,4 @@
+getPrimes(11);
 function getPrimes(n) {
   for (let i = 2; i <= n; i++) {
     if (!numPrime(i)) continue;
@@ -6,8 +7,9 @@ function getPrimes(n) {
 }
 function numPrime(n) {
   for (let i = 2; i < n; i++) {
-    if (n % i == 0) return false;
+    if (n % i === 0) return false;
   }
   return true;
 }
-getPrimes(7);
+
+
