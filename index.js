@@ -1,11 +1,4 @@
-let sum = 0;
-let a = 0;
-let b = 1000;
-while (a <= b) {
-  sum += a;
-  a++;
+function sum(a, b) {
+  console.log(a + b);
 }
-let small = sum / 1234;
-let big = sum % 1234;
-console.log(small > big);
-
+sum(2, 3);
