@@ -1,15 +1,6 @@
-
-function getPrimes(n) {
-  for (let i = 2; i <= n; i++) {
-    if (!numPrime(i)) continue;
-    console.log(i);
+function increaser(a, index) {
+  for (let i = a; i > index; i += index) {
+    return a + index;
   }
 }
-function numPrime(n) {
-  for (let i = 2; i < n; i++) {
-    if (n % i === 0) return false;
-  }
-  return true;
-}
-
-
+console.log(increaser(5, 2));
