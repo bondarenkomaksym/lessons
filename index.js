@@ -1,6 +1,6 @@
 function increaser(a, index) {
-  for (let i = a; i > index; i += index) {
+  for (let i = a; i <= index; i += index) {
     return a + index;
   }
 }
-console.log(increaser(5, 2));
+console.log(increaser(1, 8));
