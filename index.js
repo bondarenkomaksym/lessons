@@ -1,11 +1,15 @@
 const numbers = [1, 3, 4, 7];
 
-function getArrayBounds(arr) {
-  if (!Array.isArray(arr)) {
+function getSum(numbers) {
+  if (!Array.isArray(numbers)) {
     return null;
   }
-  return [arr.length, arr[0], arr[arr.length - 1]];
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+  }
+  return sum;
 }
 
-const array = getArrayBounds(numbers);
-console.log(array);
+const result = getSum(numbers);
+console.log(result);
