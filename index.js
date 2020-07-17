@@ -1,14 +1,9 @@
-function getSpecialNumbers(from, to) {
-  let specialNumbers = [];
+const numbers = [1, 3, 4, 7, 9];
 
-  for (let i = from; i <= to; i++) {
-    if (i % 3 === 0) {
-      specialNumbers.push(i);
-    }
-  }
+function swap(arr) {
+  const [start, ...rest] = arr;
 
-  return specialNumbers;
+  return [...rest, start];
 }
 
-const SpecialNumbers = getSpecialNumbers(10, 30);
-console.log(SpecialNumbers);
+console.log(swap(numbers));
