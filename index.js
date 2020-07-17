@@ -9,8 +9,8 @@ function checkSum(arr) {
   for (let i = 0; i < arr.length; i++) {
     sum += arr[i];
   }
-  return sum;
+  return sum > 100 ? true : false;
 }
 
 const array = checkSum(numbers);
-console.log(array > 100 ? true : false);
+console.log(array);
