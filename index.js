@@ -4,5 +4,3 @@ function findDivCount(a, b, n) {
   }
   return i;
 }
-
-console.log(findDivCount(1, 12, 3));
