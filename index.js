@@ -4,13 +4,11 @@ function squareArray(arr) {
   if (!Array.isArray(arr)) {
     return null;
   }
-  let squaredA = [];
-
+  let sum = 0;
   for (let i = 0; i < arr.length; i++) {
-    squaredA.push(Math.pow(arr[i], 2));
+    sum += arr[i];
   }
-
-  return squaredA;
+  return sum;
 }
 
 const array = squareArray(numbers);
