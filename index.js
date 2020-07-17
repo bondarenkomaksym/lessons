@@ -1,9 +1,15 @@
-const numbers = [1, 3, 4, 7, 9];
+function run() {
+  var a = 0;
 
-function swap(arr) {
-  const [start, ...rest] = arr;
+  if (a == 1) {
+    return c;
+  }
 
-  return [...rest, start];
+  for (let i = 1; i < 10; i++) {
+    console.log(i);
+  }
+
+  return (d = a);
 }
 
-console.log(swap(numbers));
+run();
