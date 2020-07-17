@@ -1,15 +1,14 @@
-const numbers = [1, 3, 4, 7];
+function getSpecialNumbers(from, to) {
+  let specialNumbers = [];
 
-function getSum(numbers) {
-  if (!Array.isArray(numbers)) {
-    return null;
+  for (let i = from; i <= to; i++) {
+    if (i % 3 === 0) {
+      specialNumbers.push(i);
+    }
   }
-  let sum = 0;
-  for (let i = 0; i < numbers.length; i++) {
-    sum += numbers[i];
-  }
-  return sum;
+
+  return specialNumbers;
 }
 
-const result = getSum(numbers);
-console.log(result);
+const SpecialNumbers = getSpecialNumbers(10, 30);
+console.log(SpecialNumbers);
