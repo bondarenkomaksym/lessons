@@ -1,6 +1,6 @@
 const numbers = [2, 3, 4, 5];
 
-function chekSum(arr) {
+function checkSum(arr) {
   if (!Array.isArray(arr)) {
     return null;
   }
@@ -12,5 +12,5 @@ function chekSum(arr) {
   return sum;
 }
 
-const array = chekSum(numbers);
+const array = checkSum(numbers);
 console.log(array > 100 ? true : false);
