@@ -1,14 +1,8 @@
-function sum(from, to) {
-  let sum = 0;
-  for (let i = from; i < to; i++) {
-    sum += i;
+function findDivCount(a, b, n) {
+  {
+    for (var i = 0, j = a; j <= b; j++) if (j % n == 0) i++;
   }
-  return sum;
+  return i;
 }
 
-function compareSums(a, b, c, d) {
-  let firstSum = sum(a, b);
-  let secondSum = sum(c, d);
-  if (firstSum > secondSum) { return true }
-  else if (firstSum < secondSum) { return false }
-}
+console.log(findDivCount(1, 12, 3));
