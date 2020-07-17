@@ -1,6 +1,14 @@
-function increaser(a, index) {
-  for (let i = a; i > index; i += index) {
-    return i + index;
-  } return a;
+function sum(from, to) {
+  let sum = 0;
+  for (let i = from; i < to; i++) {
+    sum += i;
+  }
+  return sum;
 }
-console.log(increaser(11, 5));
+
+function compareSums(a, b, c, d) {
+  let firstSum = sum(a, b);
+  let secondSum = sum(c, d);
+  if (firstSum > secondSum) { return true }
+  else if (firstSum < secondSum) { return false }
+}
