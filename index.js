@@ -1,12 +1,12 @@
-const numbers = [2, 5, 6, 8, 11, 9, 4];
+const numbers = [5, 6, 8, 11, 9, 4];
 
-function reverseArray(arr) {
-  if (!Array.isArray(arr)) {
+function reverseArray(numbers) {
+  if (!Array.isArray(numbers)) {
     return null;
   }
 
-  return arr.reverse();
+  return numbers.reverse();
 }
 
-const array = reverseArray(numbers);
-console.log(array);
+// const array = reverseArray(numbers);
+console.log(reverseArray(numbers));
